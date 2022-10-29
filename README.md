@@ -5,7 +5,7 @@
 Simulator Weather Station dapat memonitoring suhu dan kelembaban udara sekitar;
 Di lengkapi dengan sensor IMU yang dapat melihat pergerakkan orientasi sensor;
 Dapat di Aplikasikan sebagai alat memonitoring kualitas udara sekitar contoh muatan balon atmosfer yang biasa di gunakan BRIN;
-
+> Video : (on Progress);
 ### FITUR
 
 - Terdapat Pilihan Type Command untuk memudahkan user untuk mengoperasikannya
@@ -52,7 +52,8 @@ link https://wokwi.com/projects/346831652294492756;
 - DHTlib : https://github.com/RobTillaart/DHTlib;
 
 ### Catatan 
-1.Dikarenakan keterbatasan dalam pengadaan hardware realnya jadi hanya bisa menggunakan simulator pada web wokwi saja;
-2.Beberapa fitur hanya sederhana saja dikarenakan keterbatasan simulasi pada wokwi;
+>1.Dikarenakan keterbatasan dalam pengadaan hardware realnya jadi hanya bisa menggunakan simulator pada web wokwi saja;
+>2.Beberapa fitur hanya sederhana saja dikarenakan keterbatasan simulasi pada wokwi;
 
 > email : dimastrilaksonoip@gmail.com;
+
