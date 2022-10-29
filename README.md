@@ -18,13 +18,15 @@ Arduino NANO , MPU6050 , SD CARD Modulle dan DHT22;
 >link https://wokwi.com/projects/346831652294492756
 
 ### Type Command List
--1.STREAM <value> ON/OFF    untuk menjalankan sensor
--2.SETTING <value> ON/OFF   untuk masuk ke mode setting
-  -SET TEMP RANGE           untuk mengatur nilai range temperature (-40 sd 80 C)
-  -SET INTERVAL             untuk mengatur nilai interval(ms) pembacaan sensor
-  -STATUS                   untuk mengecek nilai intervall dan range temperature yang sudah di set
--3.SAVE DATA                untuk menyimpan data sensor ke SD card
--4.READ DATA                untuk membaca data sensor dari SD card
+
+- STREAM <value> ON/OFF    untuk menjalankan sensor
+- SETTING <value> ON/OFF   untuk masuk ke mode setting;
+  - SET TEMP RANGE           untuk mengatur nilai range temperature (-40 sd 80 C);
+  - SET INTERVAL             untuk mengatur nilai interval(ms) pembacaan sensor;
+  - STATUS                   untuk mengecek nilai intervall dan range temperature yang sudah di set
+- SAVE DATA                untuk menyimpan data sensor ke SD card;
+- READ DATA                untuk membaca data sensor dari SD card;
+  
 
 ### SD Card - Arduino Nano
 
@@ -59,9 +61,12 @@ Arduino NANO , MPU6050 , SD CARD Modulle dan DHT22;
 - MPU6050_light : https://github.com/rfetick/MPU6050_light;
 - DHTlib : https://github.com/RobTillaart/DHTlib;
 
-### Catatan 
--1.Dikarenakan keterbatasan dalam pengadaan hardware realnya jadi hanya bisa menggunakan simulator pada web wokwi saja;
--2.Beberapa fitur hanya sederhana saja dikarenakan keterbatasan simulasi pada wokwi;
+  
+### Catatan
+
+- Dikarenakan keterbatasan dalam pengadaan hardware realnya jadi hanya bisa menggunakan simulator pada web wokwi saja
+- Beberapa fitur hanya sederhana saja dikarenakan keterbatasan simulasi pada wokwi
+ 
 
 > email : dimastrilaksonoip@gmail.com;
 
