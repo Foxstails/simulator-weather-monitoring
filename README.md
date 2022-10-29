@@ -14,9 +14,17 @@ Dapat di Aplikasikan sebagai alat memonitoring kualitas udara sekitar contoh mua
 ### Hardware
 Arduino NANO , MPU6050 , SD CARD Modulle dan DHT22;
 
-### Simulator
->Wokwi; 
+### Simulator WOKWI
 >link https://wokwi.com/projects/346831652294492756
+
+### Type Command List
+>1.STREAM <value> ON/OFF    untuk menjalankan sensor
+>2.SETTING <value> ON/OFF   untuk masuk ke mode setting
+  -SET TEMP RANGE           untuk mengatur nilai range temperature (-40 sd 80 C)
+  -SET INTERVAL             untuk mengatur nilai interval(ms) pembacaan sensor
+  -STATUS                   untuk mengecek nilai intervall dan range temperature yang sudah di set
+>3.SAVE DATA                untuk menyimpan data sensor ke SD card
+>4.READ DATA                untuk membaca data sensor dari SD card
 
 ### SD Card - Arduino Nano
 
