@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Dimas Trilaksono Ibrahim Putra",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": -35.08, "left": -22.82, "attrs": {} },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": -141.32, "left": -55, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -69.45,
+      "left": 233.41,
+      "attrs": { "temperature": "-33.4", "humidity": "44" }
+    },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 94.91, "left": 35.38, "attrs": {} }
+  ],
+  "connections": [
+    [ "imu1:SCL", "nano:A5", "green", [ "h-16.83", "v-73.37" ] ],
+    [ "imu1:SDA", "nano:A4", "green", [ "h-62.87", "v-64.34" ] ],
+    [ "imu1:GND", "nano:GND.1", "black", [ "v0" ] ],
+    [ "imu1:VCC", "nano:5V", "red", [ "h14.56", "v-73.37" ] ],
+    [ "sd1:DI", "nano:11", "green", [ "h0" ] ],
+    [ "sd1:DO", "nano:12", "green", [ "h0" ] ],
+    [ "sd1:GND", "nano:GND.2", "black", [ "h106.81", "v89.2" ] ],
+    [ "sd1:SCK", "nano:13", "green", [ "h-54.4", "v130.46" ] ],
+    [ "sd1:CS", "nano:10", "green", [ "h0" ] ],
+    [ "dht1:SDA", "nano:5", "green", [ "v16.34", "h-117.19", "v-92.07" ] ],
+    [ "sd1:VCC", "dht1:VCC", "red", [ "h161.91", "v172.85", "h64.77" ] ],
+    [ "dht1:VCC", "imu1:VCC", "red", [ "v0" ] ],
+    [ "dht1:GND", "imu1:GND", "black", [ "v0" ] ]
+  ]
+}
