@@ -15,8 +15,8 @@ Dapat di Aplikasikan sebagai alat memonitoring kualitas udara sekitar contoh mua
 Arduino NANO , MPU6050 , SD CARD Modulle dan DHT22;
 
 ### Simulator
-Wokwi; 
-link https://wokwi.com/projects/346831652294492756;
+>Wokwi; 
+>link https://wokwi.com/projects/346831652294492756
 
 ### SD Card - Arduino Nano
 
