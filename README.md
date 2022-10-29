@@ -2,9 +2,9 @@
 
 ## Simulator Weather Station 
 
-Simulator Weather Station dapat memonitoring suhu dan kelembaban udara sekitar 
-Di lengkapi dengan sensor IMU yang dapat melihat pergerakkan orientasi sensor
-Dapat di Aplikasikan sebagai alat memonitoring kualitas udara sekitar contoh muatan balon atmosfer yang biasa di gunakan BRIN
+Simulator Weather Station dapat memonitoring suhu dan kelembaban udara sekitar;
+Di lengkapi dengan sensor IMU yang dapat melihat pergerakkan orientasi sensor;
+Dapat di Aplikasikan sebagai alat memonitoring kualitas udara sekitar contoh muatan balon atmosfer yang biasa di gunakan BRIN;
 
 ### FITUR
 
@@ -15,8 +15,8 @@ Dapat di Aplikasikan sebagai alat memonitoring kualitas udara sekitar contoh mua
 Arduino NANO , MPU6050 , SD CARD Modulle dan DHT22;
 
 ### Simulator
-Wokwi 
-link https://wokwi.com/projects/346831652294492756
+Wokwi; 
+link https://wokwi.com/projects/346831652294492756;
 
 ### SD Card - Arduino Nano
 
@@ -48,11 +48,11 @@ link https://wokwi.com/projects/346831652294492756
 | SDA    | D5          |
 
 ### External Library
-- MPU6050_light : https://github.com/rfetick/MPU6050_light
-- DHTlib : https://github.com/RobTillaart/DHTlib
+- MPU6050_light : https://github.com/rfetick/MPU6050_light;
+- DHTlib : https://github.com/RobTillaart/DHTlib;
 
 ### Catatan 
-1.Dikarenakan keterbatasan dalam pengadaan hardware realnya jadi hanya bisa menggunakan simulator pada web wokwi saja
-2.Beberapa fitur hanya sederhana saja dikarenakan keterbatasan simulasi pada wokwi
+1.Dikarenakan keterbatasan dalam pengadaan hardware realnya jadi hanya bisa menggunakan simulator pada web wokwi saja;
+2.Beberapa fitur hanya sederhana saja dikarenakan keterbatasan simulasi pada wokwi;
 
-> email : dimastrilaksonoip@gmail.com
+> email : dimastrilaksonoip@gmail.com;
