@@ -1,5 +1,3 @@
-# Technical Test Embedded Engineer eFishery
-
 ## Simulator Weather Station 
 
 Simulator Weather Station dapat memonitoring suhu dan kelembaban udara sekitar;
